@@ -10,6 +10,11 @@ public class CreateAStack {
 		stack.printStack();
 
 		stack.peak();
+		stack.pop();
+        stack.pop();
+        stack.pop();
+        
+        stack.printStack();
 
 
 

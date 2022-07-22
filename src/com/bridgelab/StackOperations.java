@@ -13,6 +13,12 @@ public class StackOperations {
         top = newNode;
         return top;
     }
+    
+    
+    public void pop () {
+        System.out.println("\nPopped element is: " + top.data);
+        top = top.next;
+    }
 
 
     public void peak() {
