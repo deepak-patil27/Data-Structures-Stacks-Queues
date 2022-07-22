@@ -24,9 +24,13 @@ public class CreateAStack {
 
         queue.printQueue();
 
+        queue.dequeue();
+        queue.dequeue();
+        queue.dequeue();
 
+        queue.printQueue();
 
-	}
+    }
 
 }
 

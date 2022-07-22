@@ -19,6 +19,12 @@ public class Queue {
     }
     
     
+    public void dequeue() {
+        System.out.println("\nDequeued element is " + head.data);
+        head = head.next;
+    }
+    
+    
     public void printQueue(){
         if (head == null) {
             System.out.println("Queue is empty.\n");
