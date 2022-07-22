@@ -15,6 +15,14 @@ public class CreateAStack {
         stack.pop();
         
         stack.printStack();
+        
+        System.out.println("\nNew Queue Created:");
+        Queue queue1 = new Queue();
+        queue1.enqueue(56);
+        queue1.enqueue(30);
+        queue1.enqueue(70);
+
+        queue1.printQueue();
 
 
 
